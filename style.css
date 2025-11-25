@@ -195,14 +195,15 @@ main{
 }
 
 .robot-3d {
-    position: fixed;
-    top: -9%;
-    right: -27%;
-    /* width: 1200px; */
-    height: 1100px;
-    pointer-events: none; /* content ustiga chiqmasin */
+    position: fixed;  /* absolute o'rniga fixed */
+    top: 10%;         /* ekran bo‘yicha 10% yuqoridan */
+    right: 5%;        /* ekran bo‘yicha o‘ngdan 5% */
+    width: 600px;
+    height: 600px;
+    pointer-events: none; /* content ustiga bosmaydi */
     z-index: 1;
 }
+
 
 /* TABLET RESPONSIVE */
 @media (max-width: 1300px){
@@ -257,6 +258,7 @@ main{
     .content{
         max-width: 30rem;
         margin-left: 10%;
+        /* top: 0%; */
     }
 
     .tag-box{
