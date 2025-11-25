@@ -10,7 +10,7 @@ body {
     color: #e7e7e7;
     min-height: 100vh;
     line-height: 1.5;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 /* GRADIENT AND LAYER BLUR EFFECT */
@@ -249,7 +249,7 @@ main{
     }
 
     .robot-3d{
-        scale: 0.8;
+        scale: 0.   ;
         /* top: %; */
         right: 0;
     }
