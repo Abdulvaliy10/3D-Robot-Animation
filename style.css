@@ -194,13 +194,12 @@ main{
     background-color: gray;
 }
 
-.robot-3d {
-    position: fixed;  /* absolute o'rniga fixed */
-    top: 10%;         /* ekran bo‘yicha 10% yuqoridan */
-    right: 5%;        /* ekran bo‘yicha o‘ngdan 5% */
-    width: 600px;
-    height: 600px;
-    pointer-events: none; /* content ustiga bosmaydi */
+.robot-3d{ 
+    position: absolute;
+    top: -9%;
+    right: -27%;
+    height: 1100px;
+    pointer-events: none;
     z-index: 1;
 }
 
