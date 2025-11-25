@@ -194,12 +194,6 @@ main{
     background-color: gray;
 }
 
-/* .robot-3d{
-    position: absolute;
-    top: 10%;
-    right: -30%;
-} */
-
 .robot-3d {
     position: fixed;
     top: -9%;
